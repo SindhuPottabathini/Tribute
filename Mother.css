@@ -1,0 +1,43 @@
+body {
+  font-family: news 706 BT;
+  color: white;
+  text-align: center ;
+  padding-top: 10%;
+
+}
+
+.split {
+  height: 50%;
+  width: 100%;
+  position: fixed;
+   /* z-index: 1; */
+  left: 0; 
+  overflow-y: hidden;
+  padding-top: 20px;
+}
+
+.top {
+  top: 0;
+  background-color: #290458;
+  padding-top: -0%;
+}
+
+.bottom {
+  bottom: 0;
+  background-color: rgb(20, 174, 245);
+  text-align: left;
+}
+
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 60%;
+  height: 59%;
+  padding-top: 10%;
+}
